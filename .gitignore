@@ -1,0 +1,11 @@
+# Dependencies (recreated with "npm install")
+node_modules/
+
+# Test coverage report (recreated by "jest --coverage")
+coverage/
+
+# Log files
+*.log
+
+# Environment variables / secrets
+.env
