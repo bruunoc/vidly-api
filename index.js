@@ -8,10 +8,10 @@ require('./start/logging')();
 require('./start/config')();
 // CONNECTING TO MONGODB
 require('./start/db')();
-// MIDDLEWARES ROUTES.
-require('./start/routes')(app);
 
 require('./start/prod')(app);
+// MIDDLEWARES ROUTES.
+require('./start/routes')(app);
 
 const port = process.env.PORT || 4000;
 const server = app.listen(port, () =>
